@@ -1,5 +1,5 @@
 # C
 C programming projects
 
-#Project
-Spell checker using basic C concepts
+#### Project
+Spell checker using C programming language
