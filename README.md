@@ -1,4 +1,4 @@
-# C programming project
+# Spell checker
 
 #### Overview
 Spell checker using C programming language
