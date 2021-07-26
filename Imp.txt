@@ -188,6 +188,7 @@ base on
 basic
 basically
 basis
+bat
 bath
 bathroom
 battery
@@ -2280,7 +2281,7 @@ occupy
 occur
 occur to
 ocean
-o’clock
+oï¿½clock
 October
 odd
 oddly
