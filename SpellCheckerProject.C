@@ -19,7 +19,7 @@ void main()
     printf("HELLO\nWELCOME TO SPELL CHECKER");
     printf("\nEnter word:");
     gets(w);
-    dict = fopen("Imp.txt", "r");
+    dict = fopen("dictionary.txt", "r");
     if (dict == NULL)
     {
         printf("\nUnable to process ;(\nError code #707\nYour dictionary file is missing!\nPlease reach out developer :(");
