@@ -1,6 +1,5 @@
 /* Project Title: Spell Checker Project
-   Author: Mohammad Sahil Afrid Farookhi
-   University ID: 150030590
+   Author: Sahil Afrid Farookhi
    Programming language: C
    Concepts used: Files, loops, control statements, and variable declaration
    File name: dictionary.txt
@@ -16,18 +15,18 @@ void main()
 {
     int i = 0, a, flag = 0;
     char word[20], x[20], c;
-    char hello[40] = "Hello!\nWelcome to Spell Checker\n";
-    char input[20] = "Enter word: ";
-    char error[120] = "\nUnable to process ;(\nError code #707\nYour dictionary file is missing!\nPlease reach out developer :(";
+    char WELCOME_MESSAGE[40] = "Hello!\nWelcome to Spell Checker\n";
+    char INPUT_MESSAGE[20] = "Enter word: ";
+    char ERROR_MESSAGE[120] = "\nUnable to process ;(\nError code #707\nYour dictionary file is missing!\nPlease reach out developer :(";
     system("clear");
     FILE *dict;
-    message(hello);
-    message(input);
+    message(WELCOME_MESSAGE);
+    message(INPUT_MESSAGE);
     gets(word);
     dict = fopen("dictionary.txt", "r");
     if (dict == NULL)
     {
-        message(error);
+        message(ERROR_MESSAGE);
         exit(0);
         getch();
     }
@@ -63,16 +62,16 @@ void main()
 
 void check(int flag)
 {
-    char success[60] = "\nCorrect spelling :)\nThank you!\nHave a nice day :)";
-    char fail[50] = "\nIncorrect spelling :(\nTry again!";
+    char SUCCESS_MESSAGE[60] = "\nCorrect spelling :)\nThank you!\nHave a nice day :)";
+    char FAIL_MESSAGE[50] = "\nIncorrect spelling :(\nTry again...";
     if (flag == 1)
     {
-        message(success);
+        message(SUCCESS_MESSAGE);
         exit(0);
     }
     else
     {
-        message(fail);
+        message(FAIL_MESSAGE);
         exit(0);
     }
     getch();
