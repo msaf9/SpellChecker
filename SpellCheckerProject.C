@@ -11,21 +11,25 @@
 #include <process.h>
 #include <stdlib.h>
 void check(int);
+void message(char[]);
 void main()
 {
     int i = 0, a, flag = 0;
     char word[20], x[20], c;
+    char hello[40] = "Hello!\nWelcome to Spell Checker\n";
+    char input[20] = "Enter word: ";
+    char error[120] = "\nUnable to process ;(\nError code #707\nYour dictionary file is missing!\nPlease reach out developer :(";
     system("clear");
     FILE *dict;
-    printf("HELLO\nWELCOME TO SPELL CHECKER");
-    printf("\nEnter word:");
+    message(hello);
+    message(input);
     gets(word);
     dict = fopen("dictionary.txt", "r");
     if (dict == NULL)
     {
-        printf("\nUnable to process ;(\nError code #707\nYour dictionary file is missing!\nPlease reach out developer :(");
-        getch();
+        message(error);
         exit(0);
+        getch();
     }
     else
     {
@@ -59,15 +63,22 @@ void main()
 
 void check(int flag)
 {
+    char success[60] = "\nCorrect spelling :)\nThank you!\nHave a nice day :)";
+    char fail[50] = "\nIncorrect spelling :(\nTry again!";
     if (flag == 1)
     {
-        printf("\nCORRECT SPELLING :)\nTHANK YOU\nHAVE A NICE DAY :)");
+        message(success);
         exit(0);
     }
     else
     {
-        printf("\nINCORRECT SPELLING :(\nTRY AGIAN......!");
+        message(fail);
         exit(0);
     }
     getch();
+}
+
+void message(char prompt[150])
+{
+    printf("%s", prompt);
 }
