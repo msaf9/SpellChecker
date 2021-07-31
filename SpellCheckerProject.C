@@ -3,22 +3,23 @@
    University ID: 150030590
    Programming language: C
    Concepts used: Files, loops, control statements, and variable declaration
-   File name: Imp.txt
+   File name: dictionary.txt
  */
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
 #include <process.h>
 #include <stdlib.h>
+void check(int);
 void main()
 {
     int i = 0, a, flag = 0;
-    char w[20], x[20], c;
-    FILE *dict;
+    char word[20], x[20], c;
     system("clear");
+    FILE *dict;
     printf("HELLO\nWELCOME TO SPELL CHECKER");
     printf("\nEnter word:");
-    gets(w);
+    gets(word);
     dict = fopen("dictionary.txt", "r");
     if (dict == NULL)
     {
@@ -34,7 +35,7 @@ void main()
             if ((c == ' ' || c == '\n' || c == '\t') && (flag == 0))
             {
                 x[i] = '\0';
-                a = strcmpi(w, x);
+                a = strcmpi(word, x);
                 if (a == 0)
                 {
                     flag = 1;
@@ -53,6 +54,11 @@ void main()
             }
         }
     }
+    check(flag);
+}
+
+void check(int flag)
+{
     if (flag == 1)
     {
         printf("\nCORRECT SPELLING :)\nTHANK YOU\nHAVE A NICE DAY :)");
