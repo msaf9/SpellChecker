@@ -3,7 +3,8 @@
    Programming language: C
    Concepts used: Files, loops, control statements, and variable declaration
    File name: dictionary.txt
- */
+*/
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
