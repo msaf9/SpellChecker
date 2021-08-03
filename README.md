@@ -1,4 +1,4 @@
-# Spell checker
+# Spell Checker
 
 ### How to run?
 ```
