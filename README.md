@@ -13,5 +13,21 @@
 ```
 
 ### Overview
-#### Spell checker using C programming language
-> Programming concepts: Input reading, arrays, variables and conditional statements
+#### C concepts used in Spell checker 
+>
+> Variable Declaration, Definition, and Scope
+> 
+> Data Types
+> 
+> Input/ Output
+> 
+> Operators
+> 
+> Arrays & Strings variables 
+> 
+> Conditional statements
+> 
+> Functions
+> 
+> File Handling
+> 
