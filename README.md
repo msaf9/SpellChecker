@@ -30,6 +30,7 @@ cd SpellChecker
 ### Compile and run
 ### How to compile & run using cmd?
 ```c
+cd src/main/
 gcc SpellCheckerProject.c
 gcc -o spellChecker SpellCheckerProject.c
 spellChecker.exe
