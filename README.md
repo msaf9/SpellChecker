@@ -16,6 +16,11 @@ Design and development of spell checker application using a procedural computer 
 ## Introduction
 Using this application, we can check English language word spellings.
 
+- Course Name: C PROGRAMMING AND DATA STRUCTURES
+- Course Code: 15CS1001
+- Course Credits: 5
+- Academic Year: 2015 - 16
+
 ### C concepts 
 Variable Declaration, Definition, Scope, Data Types, Input/ Output, Operators, Arrays & Strings variables, Conditional statements, Functions, and File Handling
 
@@ -46,3 +51,4 @@ sh run.sh
 ```
 
 ## License
+[MIT LICENSE](LICENSE)
