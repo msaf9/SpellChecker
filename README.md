@@ -1,12 +1,17 @@
 # Spell Checker
 Design and development of spell checker application using a procedural computer programming language.
 
-## Table of contents
-1. Introduction
-2. Technologies
-3. Project status
-4. Installation
-5. License
+- [Spell Checker](#spell-checker)
+  - [Introduction](#introduction)
+    - [C concepts](#c-concepts)
+  - [Technologies](#technologies)
+  - [Project status](#project-status)
+  - [Installation](#installation)
+    - [Get repository](#get-repository)
+    - [Compile and run](#compile-and-run)
+    - [How to compile & run using cmd?](#how-to-compile--run-using-cmd)
+    - [How to run using Shell?](#how-to-run-using-shell)
+  - [License](#license)
 
 ## Introduction
 Using this application, we can check English language word spellings.
