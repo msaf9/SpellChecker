@@ -3,6 +3,7 @@ Design and development of spell checker application using a procedural computer 
 
 - [Spell Checker](#spell-checker)
   - [Introduction](#introduction)
+    - [Course Information](#course-information)
     - [C concepts](#c-concepts)
   - [Technologies](#technologies)
   - [Project status](#project-status)
@@ -16,6 +17,7 @@ Design and development of spell checker application using a procedural computer 
 ## Introduction
 Using this application, we can check English language word spellings.
 
+### Course Information
 - Course Name: C PROGRAMMING AND DATA STRUCTURES
 - Course Code: 15CS1001
 - Course Credits: 5
