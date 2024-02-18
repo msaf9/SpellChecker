@@ -41,8 +41,8 @@ Variable Declaration, Definition, Scope, Data Types, Input/ Output, Operators, A
 ### Get repository
 
 ```git
-git clone https://github.com/msaf9/SpellChecker.git
-cd SpellChecker
+git clone https://github.com/msaf9/spell-checker.git
+cd spell-checker
 ```
 
 ### Compile and run
