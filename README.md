@@ -1,10 +1,12 @@
 <h1> Spell Checker </h1>
 Design and development of spell checker application using a procedural computer programming language.
 
+<h2> Table of contents </h2>
+
 - [Introduction](#introduction)
   - [Course Information](#course-information)
   - [C concepts](#c-concepts)
-- [Technologies](#technologies)
+- [Programming Language](#programming-language)
 - [Project status](#project-status)
 - [Installation](#installation)
   - [Get repository](#get-repository)
@@ -28,7 +30,7 @@ Using this application, we can check English language word spellings.
 
 Variable Declaration, Definition, Scope, Data Types, Input/ Output, Operators, Arrays & Strings variables, Conditional statements, Functions, and File Handling
 
-## Technologies
+## Programming Language
 
 - C Language
 
