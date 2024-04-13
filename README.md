@@ -19,6 +19,8 @@ Design and development of spell checker application using a procedural computer 
 
 Using this application, we can check English language word spellings.
 
+Learn more about [Alogrithm](resources/ALGORITHM.md).
+
 ### Course Information
 
 - Course Name: C PROGRAMMING AND DATA STRUCTURES
