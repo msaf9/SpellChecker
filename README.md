@@ -6,7 +6,7 @@ Design and development of spell checker application using a procedural computer 
 - [Introduction](#introduction)
   - [Course Information](#course-information)
   - [C concepts](#c-concepts)
-- [Programming Language](#programming-language)
+- [Programming Languages](#programming-languages)
 - [Project status](#project-status)
 - [Installation](#installation)
   - [Get repository](#get-repository)
@@ -30,9 +30,10 @@ Using this application, we can check English language word spellings.
 
 Variable Declaration, Definition, Scope, Data Types, Input/ Output, Operators, Arrays & Strings variables, Conditional statements, Functions, and File Handling
 
-## Programming Language
+## Programming Languages
 
 - C Language
+- Shell Scripting
 
 ## Project status
 
